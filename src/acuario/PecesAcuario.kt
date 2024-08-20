@@ -8,6 +8,6 @@ class Tiburon : Pez() {
 }
 
 class PezPayaso : Pez(){
-    override val color: String = "dorado"
+    override val color: String = "azul"
 }
 
