@@ -2,10 +2,13 @@ package acuario
 
 fun crearPeces() {
     val tiburon = Tiburon()
-    val pezPayaso = PezPayaso()
+    val pezPayaso = PezPayaso("naranja")
 
-    println("El color del tiburon es: ${tiburon.color}")
-    println("El color del Pez Payaso es: ${pezPayaso.color}")
+    println("Color del Tiburón: ${tiburon.color}")
+    tiburon.comer()
+
+    println("Color del Pez Payaso: ${pezPayaso.color}")
+    pezPayaso.comer()
 }
 
 fun main() {
